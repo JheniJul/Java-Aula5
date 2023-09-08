@@ -24,6 +24,7 @@ public class Algoritmo485 {
     public static void multivetor(int vet1[], String vet2[], int tam){
         int i, w;
         for(i=0; i<tam; i++){
+            System.out.println("\n");
             for(w=0; w<vet1[i]; w++){
                 System.out.println(vet2[i]);
             }
